@@ -1,0 +1,19 @@
+{
+  "name": "elisavet-diary",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "parcel serve src/index.html --no-cache"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.0.1",
+    "parcel": "^2.0.0-beta.2",
+    "posthtml-include": "^1.7.1",
+    "sass": "^1.32.13"
+  }
+}
