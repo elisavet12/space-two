@@ -225,3 +225,19 @@ h2 {
   text-transform: uppercase;
   font-size: var(--fs-400);
 }
+
+/* header */
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: var(--gap, 1rem);
+  text-transform: uppercase;
+  font-family: --;
+}
+
+.header-menu {
+  display: flex;
+  gap: var(--gap, 1rem);
+}

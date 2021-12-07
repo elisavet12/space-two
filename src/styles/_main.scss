@@ -1,4 +1,11 @@
-// .page-category {
-//   display: flex;
-//   padding: 50px;
-// }
+.main-heading {
+  flex-direction: column;
+  text-transform: uppercase;
+}
+
+.main-circle {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  background-color: white;
+}
