@@ -270,9 +270,20 @@ h2 {
 }
 
 .main-circle {
-  height: 50px;
-  width: 50px;
+  height: 274px;
+  width: 274px;
   border-radius: 50%;
   background-color: white;
+}
+
+.main-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  justify-items: center;
+}
+
+.main-paragraph {
+  width: 46ch;
 }
 /*# sourceMappingURL=index.a7c270b5.css.map */
