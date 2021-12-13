@@ -1,6 +1,6 @@
 :root {
   /* colors */
-  --clr-dark: 230 35% 7%;
+  --clr-dark: hsl(230 35% 7%);
   --clr-light: hsl(231 77% 90%);
   --clr-white: hsl(0 0% 100%);
   /* font-sizes */
@@ -271,9 +271,16 @@ h2 {
 
 .main-circle {
   height: 274px;
-  width: 274px;
+  width: 100%;
+  max-width: 274px;
   border-radius: 50%;
   background-color: white;
+  background-color: #ffffff3b;
+  line-height: 274px !important;
+  color: var(--clr-dark);
+  text-align: center;
+  text-transform: uppercase;
+  font-size: var(--fs-500);
 }
 
 .main-content {

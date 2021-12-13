@@ -5,9 +5,16 @@
 
 .main-circle {
   height: 274px;
-  width: 274px;
+  width: 100%;
+  max-width: 274px;
   border-radius: 50%;
   background-color: white;
+  background-color: #ffffff3b;
+  line-height: 274px !important;
+  color: var(--clr-dark);
+  text-align: center;
+  text-transform: uppercase;
+  font-size: var(--fs-500);
 }
 
 .main-content {
